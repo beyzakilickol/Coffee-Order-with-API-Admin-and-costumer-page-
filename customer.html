@@ -1,0 +1,60 @@
+<html>
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="customer.css"/>
+  <title>Customer Page</title>
+</head>
+<body>
+<div class="order">
+  <h1>Make an order</h1>
+  <label>Email: <input id="emailTextBox" type="email" value="Enter your email" onfocus="this.value=''"/></label>
+  <label id="coffee-types"> Choose coffee:
+  <select id="coffeeTypes" class="dropdown">
+       <option selected disabled value>Select an option </option>
+       <option value="Latte"> Cafe Latte</option>
+       <option value="Expresso"> Expresso</option>
+       <option value="Regular"> Regular</option>
+       <option value=" Regular with milk"> Regular with milk</option>
+       <option value="Cappuccino"> Cappuccino</option>
+       <option value="Macchiato"> Macchiato</option>
+       <option value="Mochaccino"> Mochaccino</option>
+
+     </select></label>
+     <label id="flavor-types"> Choose flavor you would like to add to your coffee:
+     <select id ="flavorTypes" class="dropdown">
+          <option selected disabled value>Select an option </option>
+          <option value="Caramel"> Caramel</option>
+          <option value="Cinnoman"> Cinnoman</option>
+          <option value="Vanilla"> Vanilla</option>
+          <option value="Chocolate"> Chocolate</option>
+          <option value="Banana"> Banana</option>
+          <option value="Blueberry"> Blueberry</option>
+          <option value="No flavor">No flavor</option>
+
+        </select></label>
+        <label id="size"> Choose the size of the coffee:
+        <select id="coffeeSize" class="dropdown">
+             <option selected disabled value>Select an option </option>
+             <option value="Extra Large"> Extra Large</option>
+             <option value=" Large"> Large</option>
+             <option value="Medium"> Medium</option>
+             <option value="Small"> Small</option>
+
+           </select></label>
+           <label id="strength-levels"> Choose the strength level of the coffee:
+           <select id="coffeeStrength" class="dropdown">
+                <option selected disabled value>Select an option </option>
+                <option value= 80 > 80</option>
+                <option value=74>74</option>
+                <option value=9> 9</option>
+                <option value=60> 60</option>
+                <option value=79> 79</option>
+
+              </select></label>
+              <button id="submit">Submit</button>
+</div>
+
+
+  <script src="customer.js"></script>
+</body>
+</html>

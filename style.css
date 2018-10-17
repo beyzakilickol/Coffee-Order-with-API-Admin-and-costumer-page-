@@ -1,0 +1,9 @@
+#filter-emails{
+  border-style: solid;
+  border-color: black;
+
+}
+#search-button{
+  background-color: #cccccc;
+  box-shadow: 5px 5px 5px 0px rgb(217, 217, 217);
+}
